@@ -1,0 +1,26 @@
+/* === Font import === */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+/* === Variables === */
+:root {
+  /* Colors */
+  --black: #000000;
+  --white: #ffffff;
+
+  /* Fonts */
+  --font-body: "Roboto", "Arial", sans-serif;
+}
+
+/* === Global === */
+body {
+  font-family: var(--font-body);
+  color: var(--white);
+  background-color: var(--black);
+}
+
+/* === Structure === */
+.container {
+  max-width: 1420px;
+  padding-left: 20px;
+  margin-left: auto;
+}

@@ -1,0 +1,7 @@
+/* === CSS for Header component === */
+header {
+  padding: 40px 0;
+}
+.header-logo {
+  width: 100px;
+}
